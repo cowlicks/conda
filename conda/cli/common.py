@@ -186,7 +186,7 @@ def add_parser_install(p):
                 if config.platform == 'win' else argparse.SUPPRESS)
     )
     p.add_argument(
-        "--file",
+        "--file", "-r",
         action = "store",
         help = "read package versions from FILE",
     )
